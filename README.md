@@ -9,6 +9,6 @@ Dec, 1 2020 : Change iOS/Android target to WinMobile 10 (ARM, Windows 10 Creater
 
 All works fine!
 
-<img src="DemoW10M.gif">
+<img src="Demo2.gif">
 
 
