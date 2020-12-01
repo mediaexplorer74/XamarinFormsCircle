@@ -34,9 +34,12 @@ namespace XamarinFormsCircle.ViewModels
 
         private void ChangeSegments()
         {
-            Segments[0].Color = Color.Black;
-            Segments.RemoveAt(1);
-            Refresh();
+            if (Segments.Count > 1)
+            {
+                Segments[0].Color = Color.Black;
+                Segments.RemoveAt(1);
+                Refresh();
+            }
         }
 
         public Command ChangeSegmentsCommand { get; set; }
